@@ -39,7 +39,7 @@ alembic upgrade head
 
 ### 5️⃣ Start the server
 ```bash
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 ```
 
 ## API Endpoints
