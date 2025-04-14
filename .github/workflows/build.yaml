@@ -45,7 +45,7 @@ jobs:
         
       - name: Build and Deploy
         env: 
-             PRIVATE_KEY: ${{secret.SSH_PRIVATE_KEY}}  
+             PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}  
              HOSTNAME: ${{secrets.SSH_HOST}}
              USER_NAME: ${{secrets.USER_NAME}}           
           run:
