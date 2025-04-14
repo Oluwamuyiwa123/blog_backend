@@ -9,3 +9,5 @@ python-multipart
 databases
 python-dotenv
 pydantic-settings
+
+
